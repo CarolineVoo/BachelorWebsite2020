@@ -24,14 +24,19 @@
     padding-top: 6px;
 }
 
+
+.section-about-us{
+    background-color: #ededed;
+}
+
 .grid-container{
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 10px;
+  padding: 5%;
 }
 
 .grid-item{
-  padding: 10%;
+  padding: 5%;
   font-size: 30px;
   text-align: center;
 }
