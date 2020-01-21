@@ -104,7 +104,7 @@ nav a:hover{
 
 .overskrivt {
     text-align: center;
-    margin: 30px 0;
+    margin: 10px 0;
     word-spacing: 2px;
     letter-spacing: 1px;
     font-size: 30px;
@@ -190,13 +190,14 @@ h2:after {
 
 .section-about-us{
     background-color: #ededed;
-    padding-top: 30px;
+    padding-top: 60px;
+    padding-bottom: 70px;
 }
 
 .grid-container{
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 5%;
+  padding: 2%;
 }
 
 .grid-item{
@@ -215,14 +216,17 @@ h2:after {
 
 .about-us-image{
     width: 275px;
+    box-shadow: 2px 2px 5px;
+    margin-bottom: 5px;
 }
 
 .group{
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .icon{
     padding-right: 5px;
+    color: #e9435e; 
 }
 
 
