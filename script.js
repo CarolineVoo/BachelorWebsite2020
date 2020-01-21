@@ -2,11 +2,33 @@ $(document).ready(function(){
     console.log("HelloWorl3d")
 
     $('.header-text').css('opacity', 0);
+    $('.js-section-rapporter').css('opacity', 0);
+    $('.js-section-about-us').css('opacity', 0);
+
 
     $('.section-header').waypoint(function(direction) {
             $('.js-fadeIn').addClass("animated fadeIn")
     
       }, { offset: '100%' })
+
+      $('.js-section-rapporter').waypoint(function(direction) {
+        if(direction=="down"){
+          $('.js-section-rapporter').addClass("animated fadeIn")
+        }else{
+          $('.js-section-rapporter').removeClass("animated fadeIn")
+          $('.js-section-rapporter').css('opacity', 0);
+        }
+      }, { offset: '50%' })
+
+
+      $('.js-section-about-us').waypoint(function(direction) {
+        if(direction=="down"){
+          $('.js-section-about-us').addClass("animated fadeIn")
+        }else{
+          $('.js-section-about-us').removeClass("animated fadeIn")
+          $('.js-section-about-us').css('opacity', 0);
+        }
+      }, { offset: '70%' })
 
 });
 
