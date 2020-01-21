@@ -102,13 +102,32 @@ nav a:hover{
 /*  RAPPORTER */
 /* ---------------------------------------------- */
 
+.overskrivt {
+    text-align: center;
+    margin: 30px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e9435e;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
 .section-rapporter {
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
 .rapport-box {
-    background-color: #ccc;
+    background-color: #f2f2f2;
     border-radius: 5px; 
     width: 90%;
     margin-left: 5%; 
@@ -128,7 +147,7 @@ nav a:hover{
     border-radius: 5px;
     font-size: 18px;
     outline: none;
-    color:#ffffff;
+    color:#fff;
     box-shadow: 0px 1px 2px 0px #202020;
     transition: background-color 0.25s, color 0.25s;
     text-decoration: none;
@@ -147,12 +166,31 @@ nav a:hover{
     font-size: 25px;
 }
 
+/*  GRID  */
+
+.row-rapporter {
+    width: 90%;
+    margin: 0 auto;
+    overflow: auto
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.span-1-of-4 {
+	width: 23.4%; 
+}
+
 /* ---------------------------------------------- */
 /*  ABOUT US */
 /* ---------------------------------------------- */
 
 .section-about-us{
     background-color: #ededed;
+    padding-top: 30px;
 }
 
 .grid-container{
@@ -187,25 +225,6 @@ nav a:hover{
     padding-right: 5px;
 }
 
-
-
-/*  GRID  */
-
-.row-rapporter {
-    width: 90%;
-    margin: 0 auto;
-    overflow: auto
-}
-
-.col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
-}
-
-.span-1-of-4 {
-	width: 23.4%; 
-}
 
 
 /* ---------------------------------------------- */
