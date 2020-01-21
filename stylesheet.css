@@ -311,6 +311,78 @@ footer .rowFooter2{
     background-color: #e9435e;
 }
 
+/* ---------------------------------------------- */
+/*  RESPONSIV */
+/* ---------------------------------------------- */
+
+
+  @media only screen and (max-width: 1200px) {
+
+    .row-rapporter{
+        padding-left: 10%;
+    }
+    .col {
+        float:none;
+        display: inline-block;
+    }
+
+    .span-1-of-4 {
+        width: 48%; 
+    }
+  }
+
+
+  @media only screen and (max-width: 1000px) {
+    .about-us-image{
+        width: 250px;
+        
+    }
+    
+  }
+
+  @media only screen and (max-width: 800px) {
+    .about-us-image{
+        width: 200px;
+    }
+
+    .group{
+        font-size: 15px;
+      }
+
+  }
+
+
+
+
+  @media only screen and (max-width: 620px) {
+    .row-rapporter{
+        padding-left: 0%;
+    }
+
+    .about-us-image{
+        width: 200px;
+        
+    }
+
+    .grid-container{
+        display: block;
+        grid-template-columns: none;
+      }
+
+    .group{
+        font-size: 18px;
+    }
+
+    
+    .footerText{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+      
+
+  }
+
+
 
 @media only screen and (max-width: 510px) {
     .row{
@@ -332,7 +404,28 @@ footer .rowFooter2{
         font-size: 50px;
         margin-bottom: 20px;
     }
+
+    .span-1-of-4 {
+        width: 99%; 
+    }
+
+    .rapport-box {
+        margin: 30px auto;
+    }
+
+    footer img{
+        width: 25px;   
+    }
+
+    .footerText{
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 14px;
+    }
+
+    
   }
+
 
 
   @media only screen and (max-width: 390px) {
@@ -368,4 +461,12 @@ footer .rowFooter2{
         width: 150px;
         
     }
+
+
+    .footerText{
+        margin-left: 3px;
+        margin-right: 3px;
+        font-size: 12px;
+    }
+
   }
