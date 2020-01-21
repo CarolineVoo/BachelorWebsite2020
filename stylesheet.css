@@ -29,44 +29,6 @@
 }
 
 
-.section-about-us{
-    background-color: #ededed;
-}
-
-.grid-container{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 5%;
-}
-
-.grid-item{
-  padding: 5%;
-  font-size: 30px;
-  text-align: center;
-}
-
-.grid-item p{
-    font-size: 20px;
-}
-
-.about-us{
-    margin: 50px 10% 0 10%
-}
-
-.about-us-image{
-    width: 275px;
-}
-
-.group{
-    font-size: 17px;
-}
-
-.icon{
-    padding-right: 5px;
-}
-
-
-
 nav img {
     width: 160px;
     height: auto;
@@ -184,6 +146,47 @@ nav a:hover{
     color: #4e4e4e;
     font-size: 25px;
 }
+
+/* ---------------------------------------------- */
+/*  ABOUT US */
+/* ---------------------------------------------- */
+
+.section-about-us{
+    background-color: #ededed;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5%;
+}
+
+.grid-item{
+  padding: 5%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item p{
+    font-size: 20px;
+}
+
+.about-us{
+    margin: 50px 10% 0 10%
+}
+
+.about-us-image{
+    width: 275px;
+}
+
+.group{
+    font-size: 17px;
+}
+
+.icon{
+    padding-right: 5px;
+}
+
 
 
 /*  GRID  */
