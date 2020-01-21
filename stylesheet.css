@@ -12,11 +12,11 @@
 
 .section-header{
     
-    /*background-image: linear-gradient(rgba(24,36,63,0.9), rgba(24,36,63,0.9)), url('./image/mountain.jpg');
+    background-image: linear-gradient(rgba(24,36,63,0.9), rgba(24,36,63,0.9)), url('./image/mountain.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;*/
-    background-color: #18243f;
+    background-repeat: no-repeat;
+    /*background-color: #18243f;*/
     height: 70vh;
     width: 100%;
     box-shadow: 0px 5px 20px 0px;
@@ -24,9 +24,29 @@
     padding-top: 6px;
 }
 
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item{
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.about-us{
+    margin: 50px 10% 0 10%
+}
+
+.about-us-image{
+    width: 100%
+}
+
 
 nav img {
-    width: 150px;
+    width: 160px;
     height: auto;
     margin-top: 5px;
 }
@@ -90,6 +110,43 @@ nav a:hover{
 .btnStart:hover{
     background-color:#8a2233;
     color:#959595;
+}
+
+footer{
+    background-color: #18243f;
+    box-shadow: 0px -1px 5px 0px black;
+}
+
+footer .rowFooter{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    color: #f5f5f5;
+    font-weight: 500;
+    height: 150px;
+}
+
+footer img{
+    width: 35px;
+    height: auto;
+    margin: 10px;
+    margin-bottom:20px;   
+}
+
+footer img:hover{
+    transform: scale(1.1);
+}
+
+.footerText{
+    color: #f5f5f5;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer .rowFooter2{
+    text-align: center;
+    background-color: #e9435e;
 }
 
 
