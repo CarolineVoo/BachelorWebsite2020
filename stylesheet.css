@@ -92,6 +92,43 @@ nav a:hover{
     color:#959595;
 }
 
+footer{
+    background-color: #18243f;
+    box-shadow: 0px -1px 5px 0px black;
+}
+
+footer .rowFooter{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    color: #f5f5f5;
+    font-weight: 500;
+    height: 150px;
+}
+
+footer img{
+    width: 35px;
+    height: auto;
+    margin: 10px;
+    margin-bottom:20px;   
+}
+
+footer img:hover{
+    transform: scale(1.1);
+}
+
+.footerText{
+    color: #f5f5f5;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer .rowFooter2{
+    text-align: center;
+    background-color: #e9435e;
+}
+
 
 @media only screen and (max-width: 510px) {
     .row{
