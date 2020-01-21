@@ -12,11 +12,11 @@
 
 .section-header{
     
-    /*background-image: linear-gradient(rgba(24,36,63,0.9), rgba(24,36,63,0.9)), url('./image/mountain.jpg');
+    background-image: linear-gradient(rgba(24,36,63,0.9), rgba(24,36,63,0.9)), url('./image/mountain.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;*/
-    background-color: #18243f;
+    background-repeat: no-repeat;
+    /*background-color: #18243f;*/
     height: 70vh;
     width: 100%;
     box-shadow: 0px 5px 20px 0px;
@@ -26,7 +26,7 @@
 
 
 nav img {
-    width: 150px;
+    width: 160px;
     height: auto;
     margin-top: 5px;
 }
